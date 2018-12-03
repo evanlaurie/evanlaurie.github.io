@@ -1,0 +1,133 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+	
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+/* Other  ----------- */
+@media (min-width: 1080px){
+	#page{
+		margin-top: 20px;
+		margin-bottom: 350px;
+		border-radius: 7px;
+	}
+}
+
+@media (max-width: 1080px){
+	#top{
+		position: fixed;
+	}
+}
+
+@media (max-width: 880px){
+	.project-container{
+		width: calc(50% - 6px);
+	}
+}
+
+@media (max-width: 780px){
+	.section-content{
+		padding-bottom: 15px;
+	}
+}
+
+@media (min-width: 780px){
+	.section-content{
+		padding: 15px 10px;
+		width: calc(100% - 200px);
+		float: right;
+	}
+	
+	.section-header{
+		width: 200px;
+		float: left;
+	}
+	
+	#email{
+		float: left;
+		display: inline-block;
+		width: 200px;
+		margin-left: -200px;
+		margin-top: 45px;
+	}
+}
+@media (min-width : 420px){
+	#contact-form #contact-form-name,
+	#contact-form #contact-form-email{
+		width: 49.5%;
+	}
+
+	#contact-form-name{
+		float: left;
+	}
+
+	#contact-form-email{
+		float: right;
+	}
+}
+
+@media (max-width: 420px){
+	#contact-form-email{
+		margin-top: 10px !important;
+	}
+	
+	.project-container{
+		width: 100%;
+	}
+}
